@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.secao1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+    transform: translateX(338px) translateY(-364px);
+
+
+
+}
+
+.imagem2 {
+    display: none;
+
+}
+
+
+.imagem3 {
+    display: none;
+    width: 100%;
+}
+
+.secao2 {
+    padding-top: 100px;
+    padding-bottom: 140px;
+    background: rgb(240, 241, 255);
+    background: linear-gradient(0deg, rgba(240, 241, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.button-dark {
+    padding: 14px 32px;
+    border-radius: 500px;
+    background: #13183F;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+    outline: 0;
+
+}
+
+.button-dark:hover {
+    background: #666CA3;
+
+}
+
+.parte1 {
+    max-width: 457px;
+
+}
+
+h1 {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 56px;
+    color: #13183F;
+    margin-bottom: 28px;
+    margin-top: 40px;
+
+}
+
+.our {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-top: 29px;
+
+}
+
+.button-pink {
+    padding: 19px 32px;
+    border-radius: 500px;
+    background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+}
+
+.button-pink:hover {
+    opacity: 0.5;
+
+}
+
+.parte3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 30px;
+
+}
+
+.card {
+    padding: 32px;
+    border-radius: 16px;
+    height: 322px;
+    max-width: 350px;
+    background: white;
+    position: relative;
+}
+
+.card img {
+    position: absolute;
+    top: -24px;
+}
+
+.card-color {
+    color: white;
+    background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+}
+
+.card-color h2 {
+    max-width: 300px;
+    margin-top: 64px;
+}
+
+h2 {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+h3 {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: #13183F;
+}
+
+p {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-bottom: 0;
+}
+
+.ancora {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    position: absolute;
+    bottom: 40px;
+}
+
+.ancora:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #13183F;
+    padding: 32px 0;
+
+}
+
+.nav-footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-purple {
+    padding: 14px 32px;
+    border-radius: 500px;
+    background: rgb(240, 42, 166);
+    background: linear-gradient(0deg, rgba(240, 42, 166, 1) 0%, rgba(240, 42, 166, 1) 30%, rgba(158, 72, 255, 1) 100%);
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+    outline: 0;
+
+
+}
+
+
+
+.button-purple:hover {
+    background: rgb(255, 167, 223);
+    background: linear-gradient(0deg, rgba(255, 167, 223, 1) 49%, rgba(198, 72, 255, 1) 100%);
+}
+
+@media(max-width: 1180px) {
+    .container {
+        margin: 0 40px;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .imagem2 {
+        position: absolute;
+        right: 0;
+        transform: translateX(301px) translateY(-253px);
+        display: block;
+    }
+
+    .imagem3 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .our {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .button-pink {
+        padding: 15px 38px;
+
+
+    }
+
+    .parte1 {
+        max-width: 412px;
+    }
+
+    .secao1 {
+        padding-top: 160px;
+        padding-bottom: 140px;
+    }
+
+    .parte3 {
+
+        grid-template-columns: 1fr 1fr;
+        row-gap: 56px;
+        column-gap: 10px;
+
+    }
+
+    .card {
+        height: 200px;
+        padding-right: 21px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .card-color h2 {
+
+        margin-top: 20px;
+    }
+
+    .ancora {
+        bottom: 32px;
+    }
+
+    .secao2 {
+        padding-bottom: 86px;
+    }
+
+   
+
+
+}
+
+@media(max-width: 740px) {
+    .parte1 {
+        max-width: 50%;
+    }
+
+
+
+}
+
+
+@media(max-width: 620px) {
+    .container {
+        margin: 0 16px;
+
+    }
+
+    .parte1 {
+        max-width: 100%;
+    }
+
+    .button-dark {
+        padding: 11px 24px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .imagem2 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .button-pink {
+        padding: 15px 38px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 24px;
+    }
+
+    .parte3 {
+
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        column-gap: 10px;
+
+    }
+
+    .card-color {
+
+        margin-bottom: 0;
+        height: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .imagem3 {
+        display: block;
+
+    }
+
+    
+
+    .button-purple {
+        padding: 11px 24px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .secao1 {
+        padding-bottom: 0;
+        padding-top: 120px;
+    }
+
+    .secao2 {
+        padding-top: 0;
+    }
+
+}
